@@ -1,0 +1,19 @@
+1. To create folder:
+  - mkdir Name => this will create a folder with name 'Name'
+  - mkdir Name\Sub => this will create 'Name' then inside it 'Sub'
+  - mkdir n\1 n\2 n\3 => this will create multiple folders
+
+2. To create file:
+  - type null > file.txt => this will create a file 'file.txt'
+  - type null > app\file.txt => create 'file.txt' inside folder app
+
+3. To Save all installed Dependencies:
+  - pip freeze > requirements.txt
+
+4. Create & Run virtual env:
+  - python -m venv Name => create virtual environment
+  - Name\Scripts\activate => activate virtual environment
+  - deactivate => to deactivate
+
+5. Run the Backend:
+  - uvicorn app.main:app --reload => here 'app.main'
