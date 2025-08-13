@@ -16,4 +16,14 @@
   - deactivate => to deactivate
 
 5. Run the Backend:
-  - uvicorn app.main:app --reload => here 'app.main'
+  - uvicorn app.main:app --reload => here 'app.main' is the entry point
+
+6. Push to github: 1️⃣ Stage your changes
+  - git add .
+  2️⃣ Commit your changes
+  - git commit -m "your commit message"
+  3️⃣ Push to the remote repository
+  - git push origin main
+
+7. To pull from github:
+  - git pull origin main
